@@ -1,9 +1,3 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 body {
   background: #60a3bc;
 }
@@ -22,7 +16,6 @@ body {
   position: absolute;
   top: 35%;
   width: 100%;
-  max-width: 100%;
   text-align: center;
   margin: 0;
   padding: 0;
