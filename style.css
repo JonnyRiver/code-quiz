@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #60a3bc;
+}
+
+#start-btn {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.info-box {
+  font-size: xx-large;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  margin-top: auto;
+  padding-left: auto;
+  border: 25px;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.how {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 250px;
+}
+
+.quiz-box {
+  position: relative;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+.layer {
+  position: absolute;
+  margin: auto;
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  border: solid 3px black;
+  max-width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
